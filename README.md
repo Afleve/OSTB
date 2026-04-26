@@ -1,6 +1,6 @@
 # OSTB
 
-[![Under review](https://img.shields.io/badge/CVPR-2026%20Accepted-brightgreen)]()  
+[![Under review]()]()  
 
 > This repository contains the official implementation of the     paper:  
 > **"One Stone, Three Birds: Self-adaptive Optimal Transport for VLM Adaptation, Selection, and Ensembling"**  
