@@ -22,7 +22,7 @@ cd
 
 ---
 
-## 🙏 models
+## 🙏 Models
 [RSDiX-CLIP](https://github.com/NeuRoNeLab/RSDiX-CLIP.git)、
 [RS-M-CLIP](https://github.com/DannielSilva/RS-M-CLIP)
 
