@@ -20,7 +20,7 @@ cd
 
 Datasets Features: BaiduCloud: https://pan.baidu.com/s/1U8oLdSIy1bLIBcI2mhMFMQ?pwd=qakt  
 
-It should be noted that the visual features have not been normalized.
+It should be noted that the visual features have not been normalized. Universal dataset splits have been provided for natural image data and some medical pathology data. For the remaining data, we split it into training and testing sets at a ratio of 7:3. All splitting details can be found in dataset_splits.
 
 ### Natural Images
 
