@@ -18,6 +18,10 @@ cd
 
 ## 📂 Datasets
 
+BaiduCloud: https://pan.baidu.com/s/1U8oLdSIy1bLIBcI2mhMFMQ?pwd=qakt  
+
+It should be noted that the visual features have not been normalized.
+
 ### Natural Images
 
 | Dataset | Classes | Description |
