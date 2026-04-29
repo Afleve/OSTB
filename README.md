@@ -45,7 +45,7 @@ It should be noted that the visual features have not been normalized. Universal 
 
 | Dataset | Classes | Train | Val | Test | Description |
 |---------|---------|-------|-----|------|-------------|
-| SICAP-MIL | 4 | - | - | 1501 | Prostate cancer WSIs |
+| SICAP-MIL | 4 | 1050 | - | 451 | Prostate cancer WSIs |
 | PCam | 2 | 262144 | 32768 | 32768 | Tumor detection |
 | Osteosarcoma | 3 | 800 | - | 344 | Osteosarcoma histology |
 | BACH | 4 | 280 | - | 120 | Breast cancer |
