@@ -22,57 +22,58 @@ Datasets Features: BaiduCloud: https://pan.baidu.com/s/1U8oLdSIy1bLIBcI2mhMFMQ?p
 
 It should be noted that the visual features have not been normalized. Universal dataset splits have been provided for natural image data and some medical pathology data. For the remaining data, we split it into training and testing sets at a ratio of 7:3. All splitting details can be found in dataset_splits.
 
+## Dataset Statistics
+
 ### Natural Images
 
-| Dataset | Classes | Description |
-|---------|---------|-------------|
-| ImageNet | 1000 | Natural image benchmark |
-| SUN397 | 397 | Scene classification |
-| FGVC | 100 | Fine-grained aircraft classification |
-| EuroSAT | 10 | Satellite land cover classification |
-| Stanford Cars | 196 | Vehicle classification |
-| Food101 | 101 | Food classification |
-| Oxford Pets | 37 | Pet classification |
-| Oxford Flowers | 102 | Flower classification |
-| Caltech101 | 100 | Object classification (excluding BACKGROUND_Google and Faces_easy) |
-| DTD | 47 | Texture classification |
-| UCF101 | 101 | Action recognition |
-| CIFAR-10 | 10 | Image classification |
-| CIFAR-100 | 100 | Image classification |
-| CUB-200-2011 | 200 | Fine-grained bird classification |
+| Dataset | Classes | Total | Train | Val | Test | Description |
+|---|---:|---:|---:|---:|---:|---|
+| ImageNet | 1000 | 1,331,167 | 1,281,167 | - | 50,000 | Natural image benchmark |
+| SUN397 | 397 | 39,700 | 15,880 | 3,970 | 19,850 | Scene classification |
+| FGVC Aircraft | 100 | 10,000 | 3,334 | 3,333 | 3,333 | Fine-grained aircraft classification |
+| EuroSAT | 10 | 27,000 | 13,500 | 5,400 | 8,100 | Satellite land cover classification |
+| Stanford Cars | 196 | 16,185 | 6,509 | 1,635 | 8,041 | Vehicle classification |
+| Food101 | 101 | 101,000 | 50,500 | 20,200 | 30,300 | Food classification |
+| Oxford Pets | 37 | 7,349 | 2,944 | 736 | 3,669 | Pet classification |
+| Oxford Flowers | 102 | 8,189 | 4,093 | 1,633 | 2,463 | Flower classification |
+| Caltech101 | 100 | 8,242 | 4,128 | 1,649 | 2,465 | Object classification, excluding BACKGROUND_Google and Faces_easy |
+| DTD | 47 | 5,640 | 2,820 | 1,128 | 1,692 | Texture classification |
+| UCF101 | 101 | 13,320 | 7,639 | 1,898 | 3,783 | Action recognition |
+| CIFAR-10 | 10 | 60,000 | 40,000 | 10,000 | 10,000 | Image classification |
+| CIFAR-100 | 100 | 60,000 | 40,000 | 10,000 | 10,000 | Image classification |
+| CUB-200-2011 | 200 | 11,788 | 4,794 | 1,200 | 5,794 | Fine-grained bird classification |
 
 ### Medical Pathology
 
-| Dataset | Classes | Train | Val | Test | Description |
-|---------|---------|-------|-----|------|-------------|
-| SICAP-MIL | 4 | 1050 | - | 451 | Prostate cancer WSIs |
-| PCam | 2 | 262144 | 32768 | 32768 | Tumor detection |
-| Osteosarcoma | 3 | 800 | - | 344 | Osteosarcoma histology |
-| BACH | 4 | 280 | - | 120 | Breast cancer |
-| BreakHis | 8 | 5536 | - | 2373 | Breast cancer |
-| SkinCancer | 16 | 88971 | 12354 | 28039 | Skin pathology |
-| SkinTumor | 4 | 29419 | 4146 | 8851 | Skin tumor |
-| LC25000 Lung | 3 | 10500 | - | 4500 | Lung tissue histology |
-| LC25000 Colon | 2 | 7000 | - | 3000 | Colon tissue histology |
-| NCT-CRC | 9 | 50000 | - | 7180 | Colorectal cancer |
-| WSSS4LUAD | 2 | 7063 | - | 3028 | Lung adenocarcinoma |
-| PanNuke | 2 | 4346 | - | 1888 | Multi-organ pathology |
+| Dataset | Classes | Total | Train | Val | Test | Description |
+|---|---:|---:|---:|---:|---:|---|
+| SICAP-MIL | 4 | 1,501 | 1,050 | - | 451 | Prostate cancer pathology |
+| PCam | 2 | 327,680 | 262,144 | 32,768 | 32,768 | Tumor detection |
+| Osteosarcoma | 3 | 1,144 | 800 | - | 344 | Osteosarcoma histology |
+| BACH | 4 | 400 | 280 | - | 120 | Breast cancer histology |
+| BreakHis | 8 | 7,909 | 5,536 | - | 2,373 | Breast cancer histology |
+| SkinCancer | 16 | 129,364 | 88,971 | 12,354 | 28,039 | Skin pathology |
+| SkinTumor | 4 | 42,416 | 29,419 | 4,146 | 8,851 | Skin tumor subset |
+| LC25000 Lung | 3 | 15,000 | 10,500 | - | 4,500 | Lung tissue histology |
+| LC25000 Colon | 2 | 10,000 | 7,000 | - | 3,000 | Colon tissue histology |
+| NCT-CRC | 9 | 107,180 | 50,000 | 50,000 | 7,180 | Colorectal cancer histology |
+| WSSS4LUAD | 2 | 10,091 | 7,063 | - | 3,028 | Lung adenocarcinoma |
+| PanNuke | 2 | 6,234 | 4,346 | - | 1,888 | Binary pathology subset |
 
 ### Remote Sensing
 
-| Dataset | Classes | Total | Train | Test | Description |
-|---------|---------|-------|-------|------|-------------|
-| AID | 30 | 10000 | 7000 | 3000 | Aerial scene classification |
-| EuroSAT | 10 | 27000 | 18900 | 8100 | Land cover classification |
-| MLRSNet | 46 | 109161 | 76410 | 32751 | Multi-label remote sensing |
-| OPTIMAL31 | 31 | 1860 | 1302 | 558 | Scene classification |
-| PatternNet | 38 | 30400 | 21280 | 9120 | High-resolution scene |
-| RESISC45 | 45 | 31500 | 22050 | 9450 | Scene classification |
-| RSC11 | 11 | 1232 | 862 | 370 | Scene classification |
-| RSICB128 | 45 | 36707 | 25696 | 11011 | Land cover 128 scale |
-| RSICB256 | 35 | 24747 | 17323 | 7424 | Land cover 256 scale |
-| WHURS19 | 19 | 1005 | 703 | 302 | Scene classification |
-
+| Dataset | Classes | Total | Train | Val | Test | Description |
+|---|---:|---:|---:|---:|---:|---|
+| AID | 30 | 10,000 | 7,000 | - | 3,000 | Aerial scene classification |
+| EuroSAT | 10 | 27,000 | 18,900 | - | 8,100 | Land cover classification |
+| MLRSNet | 46 | 109,161 | 76,410 | - | 32,751 | Multi-label remote sensing |
+| OPTIMAL31 | 31 | 1,860 | 1,302 | - | 558 | Scene classification |
+| PatternNet | 38 | 30,400 | 21,280 | - | 9,120 | High-resolution scene classification |
+| RESISC45 | 45 | 31,500 | 22,050 | - | 9,450 | Scene classification |
+| RSC11 | 11 | 1,232 | 862 | - | 370 | Scene classification |
+| RSICB128 | 45 | 36,707 | 25,696 | - | 11,011 | Land cover classification at 128 scale |
+| RSICB256 | 35 | 24,747 | 17,323 | - | 7,424 | Land cover classification at 256 scale |
+| WHURS19 | 19 | 1,005 | 703 | - | 302 | Scene classification |
 
 ---
 
