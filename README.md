@@ -24,6 +24,8 @@ It should be noted that the visual features have not been normalized. Universal 
 
 ## Dataset Statistics
 
+## Dataset Statistics
+
 ### Natural Images
 
 | Dataset | Classes | Total | Train | Val | Test | Description |
@@ -74,6 +76,7 @@ It should be noted that the visual features have not been normalized. Universal 
 | RSICB128 | 45 | 36,707 | 25,696 | - | 11,011 | Land cover classification at 128 scale |
 | RSICB256 | 35 | 24,747 | 17,323 | - | 7,424 | Land cover classification at 256 scale |
 | WHURS19 | 19 | 1,005 | 703 | - | 302 | Scene classification |
+
 
 ---
 
