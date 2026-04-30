@@ -24,8 +24,6 @@ It should be noted that the visual features have not been normalized. Universal 
 
 ## Dataset Statistics
 
-## Dataset Statistics
-
 ### Natural Images
 
 | Dataset | Classes | Total | Train | Val | Test | Description |
