@@ -18,7 +18,7 @@ cd
 
 ## 📂 Datasets
 
-Datasets Features: BaiduCloud: https://pan.baidu.com/s/1U8oLdSIy1bLIBcI2mhMFMQ?pwd=qakt  
+Datasets Features: BaiduCloud: https://pan.baidu.com/s/1U8oLdSIy1bLIBcI2mhMFMQ?pwd=qakt   (It is recommended to use BaiduPCS-go for downloading.)
 
 It should be noted that the visual features have not been normalized. Universal dataset splits have been provided for natural image data and some medical pathology data. For the remaining data, we split it into training and testing sets at a ratio of 7:3. All splitting details can be found in dataset_splits. Due to the large size of the ImageNet dataset, We uploaded it in pieces, and the corresponding merging script also needs to be downloaded.
 
