@@ -92,14 +92,14 @@ It should be noted that the visual features have not been normalized. Universal 
 | [OpenCLIP-B/16](https://github.com/mlfoundations/open_clip) | 72.98 | 69.88 | 29.73 | 56.37 | 89.90 | 87.52 | 92.83 | 75.44 | 96.67 | 58.33 | 67.46 | 96.27 | 81.99 | 77.53 | 75.21 |
 | [DeCLIP-B/32](https://github.com/Sense-GVT/DeCLIP) | 39.45 | 47.77 | 2.70 | 24.20 | 3.58 | 46.79 | 34.89 | 62.32 | 77.57 | 25.41 | 36.32 | 80.88 | 49.94 | 34.98 | 40.49 |
 | [FLAVA](https://huggingface.co/facebook/flava-full) | 54.89 | 59.10 | 12.09 | 37.43 | 27.48 | 74.74 | 68.85 | 58.83 | 90.67 | 38.71 | 52.42 | 89.90 | 64.45 | 46.53 | 55.44 |
-| [CoCa-B/32](https://github.com/mlfoundations/open_clip) | 63.43 | 66.59 | 18.06 | 45.43 | 86.42 | 75.44 | 89.13 | 65.20 | 94.52 | 52.48 | 62.25 | 93.55 | 73.85 | 60.27 | 67.62 |
-| [EVA-CLIP-B/16](https://github.com/baaivision/EVA/tree/master/EVA-CLIP) | 74.47 | 70.81 | 24.69 | 58.17 | 79.13 | 86.55 | 92.20 | 75.80 | 97.16 | 50.35 | 69.12 | 98.26 | 87.84 | 61.94 | 73.32 |
+| [CoCa-B/32](https://github.com/mlfoundations/open_clip) | 63.43 | 66.59 | 18.06 | 45.43 | 86.42 | 75.44 | 89.13 | 65.21 | 94.52 | 52.48 | 62.25 | 93.55 | 73.85 | 60.27 | 67.62 |
+| [EVA-CLIP-B/16](https://github.com/baaivision/EVA/tree/master/EVA-CLIP) | 74.47 | 70.81 | 24.69 | 58.17 | 79.13 | 86.55 | 92.20 | 75.80 | 97.16 | 50.35 | 69.13 | 98.26 | 87.84 | 61.94 | 73.32 |
 | [MetaCLIP-B/16](https://github.com/facebookresearch/MetaCLIP) | 69.97 | 68.81 | 28.62 | 55.20 | 74.69 | 84.07 | 90.49 | 73.81 | 96.11 | 51.77 | 68.04 | 89.87 | 64.95 | 68.29 | 70.34 |
 | [JinaCLIPv2](https://huggingface.co/jinaai/jina-clip-v2) | 66.23 | 65.58 | 16.47 | 51.53 | 77.69 | 84.18 | 80.08 | 68.53 | 92.01 | 50.30 | 56.44 | 95.73 | 77.65 | 32.43 | 65.35 |
 | [SigLIP2-B/16](https://github.com/google-research/big_vision/blob/main/big_vision/configs/proj/image_text/README_siglip2.md) | 76.79 | 72.64 | 40.35 | 45.35 | 92.99 | 90.01 | 94.71 | 84.53 | 97.53 | 62.94 | 73.09 | 94.05 | 72.95 | 50.19 | 74.87 |
 | [PE-Core-B/16](https://huggingface.co/facebook/pe_core_base_patch16_224_timm) | 78.38 | 73.93 | 57.07 | 61.74 | 93.43 | 89.83 | 94.66 | 87.01 | 97.48 | 64.42 | 79.17 | 97.14 | 82.96 | 84.10 | 81.52 |
 | [MobileCLIP2-B](https://github.com/apple/ml-mobileclip) | 77.80 | 73.26 | 28.92 | 36.02 | 93.66 | 88.31 | 93.38 | 84.61 | 97.85 | 61.11 | 68.68 | 92.79 | 72.11 | 80.13 | 74.90 |
-| **[OSTB Ensemble](https://github.com/Afleve/OSTB)** | **80.36** | **79.03** | **51.91** | **86.90** | **94.76** | **90.26** | **95.12** | **86.52** | **96.35** | **69.74** | **80.33** | **98.18** | **88.28** | **84.05** | **84.41** |
+| **[OSTB Ensemble](https://github.com/Afleve/OSTB)** | **80.47** | **79.12** | 52.24 | **86.49** | **94.96** | **90.46** | **95.20** | 86.97 | 97.36 | **70.21** | **80.28** | 98.25 | **88.38** | **85.05** | **84.68** |
 
 ### Remote Sensing
 
@@ -114,7 +114,7 @@ It should be noted that the visual features have not been normalized. Universal 
 | [RSDiX-CLIP-B/16](https://github.com/NeuRoNeLab/RSDiX-CLIP) | 94.23 | 55.16 | 73.48 | 98.75 | 67.34 | 97.83 | 80.81 | 35.84 | 49.42 | 98.34 | 75.12 |
 | [RSDiX-CLIP-B/32](https://github.com/NeuRoNeLab/RSDiX-CLIP) | 92.03 | 49.56 | 67.02 | 96.95 | 60.67 | 97.04 | 80.27 | 32.97 | 46.94 | 96.03 | 71.95 |
 | [StreetCLIP](https://huggingface.co/geolocal/StreetCLIP) | 71.77 | 56.91 | 63.54 | 81.90 | 74.45 | 69.61 | 65.68 | 35.46 | 45.27 | 84.11 | 64.87 |
-| **[OSTB Ensemble](https://github.com/Afleve/OSTB)** | **98.70** | **89.11** | **84.13** | **99.28** | **96.97** | **98.55** | **88.65** | **51.65** | **59.29** | **99.67** | **86.60** |
+| **[OSTB Ensemble](https://github.com/Afleve/OSTB)** | **98.70** | **70.70** | **85.22** | **99.28** | **96.72** | **98.80** | **89.46** | **50.53** | **64.59** | **99.67** | **85.37** |
 
 ### Medical Pathology
 
@@ -132,7 +132,7 @@ It should be noted that the visual features have not been normalized. Universal 
 | [PMC-CLIP](https://github.com/WeixiongLin/PMC-CLIP) | 23.73 | 18.19 | 46.31 | 74.64 | 63.63 | 47.97 | 51.62 | 75.79 | 59.48 | 50.90 | 46.67 | 17.99 | 48.08 |
 | [PathGen-CLIP](https://huggingface.co/jamessyx/PathGen-CLIP) | 37.25 | 42.94 | 66.87 | 85.02 | 96.63 | 66.86 | 57.23 | 81.54 | 74.36 | 64.89 | 60.83 | 33.84 | 64.02 |
 | [MUSK](https://github.com/lilab-stanford/MUSK) | 37.47 | 59.58 | 72.39 | 92.93 | 99.23 | 66.57 | 66.91 | 75.43 | 82.73 | 66.00 | 59.17 | 39.36 | 68.15 |
-| **[OSTB Ensemble](https://github.com/Afleve/OSTB)** | **59.42** | **80.43** | **85.12** | **97.76** | **99.60** | **87.79** | **94.71** | **91.51** | **82.10** | 52.96 | **70.00** | 33.54 | **77.91** |
+| **[OSTB Ensemble](https://github.com/Afleve/OSTB)** | **58.54** | **79.78** | **87.88** | **97.84** | **99.67** | **84.30** | **94.54** | **90.36** | 81.57 | 56.31 | **73.33** | 35.86 | **78.33** |
 
 
 
