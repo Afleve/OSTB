@@ -5,6 +5,8 @@
 > This repository contains the official implementation of the     paper:  
 > **"One Stone, Three Birds: Self-adaptive Optimal Transport for Multi-VLM Selection, Adaptation, and Ensembling"**  
 
+📄 [Paper](https://arxiv.org/pdf/2606.08126)
+
 ---
 
  
